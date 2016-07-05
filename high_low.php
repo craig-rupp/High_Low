@@ -1,6 +1,6 @@
 <?php
 
-$randomNumber = rand(1,100);
+$randomNumber = mt_rand(1,100);
 $guessCount = 0;
 
 do {
